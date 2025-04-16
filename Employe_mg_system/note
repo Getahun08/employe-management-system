@@ -1,0 +1,10 @@
+step by step to  use django
+if not install djanjo install by use this =pip install django
+to install rest framework =pip install djangorestframework
+then open main folder for project =django-admin startproject projectname
+to install api in our project python manage.py startapp api 
+to install db.sqlite3 use =python manage.py runserver
+after that coorect sttinng in project setting add =rest_framework,appi 
+create ursls in api in this call function from views api after create afun in views 
+than call the api urls in project urls  then run by ==python manage.py runserver
+to comunicate front end with backend  use= pip install django-cors-headers 
